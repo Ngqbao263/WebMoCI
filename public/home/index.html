@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <!-- -----BOOSTRAP----- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- -----ICON----- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- -----FONT-FAMILY----- -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- -----BOOSTRAP----- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--HEADER -->
+    <header>
+        <div class="bg-header text-white py-1 d-none d-lg-block">
+            <div class="container">
+                <small>
+                    CÔNG TY CỔ PHẦN VẬT LIỆU CÔNG TRÌNH BIỂN ĐẢO VÀ CÁC NGÀNH CÔNG NGHIỆP
+                </small><br>
+                <small>
+                    📧 sales@moci.com.vn | ⏰ 8:00 - 17:00 | ☎️ 0904 888 868
+                </small>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVBAR (MOBILE FIRST) -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="/img/logo.png" alt="Logo" width="50">
+            </a>
+
+            <!-- Nút bấm hiện menu khi mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu ẩn hiện -->
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Giới thiệu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sản phẩm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Dịch vụ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ứng dụng</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tin tức</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner / Slider -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="/img/banner.png" class="d-block w-100" alt="Slide 1">
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="/img/banner2.png" class="d-block w-100" alt="Slide 2">
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="/img/banner3.png" class="d-block w-100" alt="Slide 2">
+            </div>
+        </div>
+
+        <!-- Nút chuyển trái/phải -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <!-- PHẦN GIỚI THIỆU -->
+    <section class="py-4 bg-light">
+        <div class="container">
+            <p class="text-primary">VỀ CHÚNG TÔI</p>
+            <h2 class="mb-3">Công ty Cổ phần Vật liệu Công trình Biển Đảo và các ngành Công Nghiệp – MOCi</h2>
+
+            <!--Nội dung -->
+            <div class="row flex-column">
+
+                <!-- Nội dung -->
+                <div class="col">
+                    <p>
+                        CÔNG TY CỔ PHẦN VẬT LIỆU CÔNG TRÌNH BIỂN ĐẢO VÀ CÁC NGÀNH CÔNG NGHIỆP được thành lập từ năm 2015
+                        chuyên về lĩnh vực cung cấp vật tư, máy móc, thiết bị, phụ tùng, hóa chất và các dịch vụ kỹ
+                        thuật liên quan đến các ngành công nghiệp dầu khí Việt Nam.
+                    </p>
+                    <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHẦN TIN TỨC -->
+    <section class="py-4">
+        <div class="container">
+            <h2 class="mb-4">TIN TỨC & SỰ KIỆN</h2>
+
+            <div class="row">
+                <!-- Bài viết 1 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="/img/tintuc1.webp" class="card-img-top" alt="Tin 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Giải pháp chống xói lở bờ biển</h5>
+                            <p class="card-text">Công ty MOCI vừa triển khai thành công hệ thống chống xói lở tại Cần
+                                Giờ...</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài viết 2 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="/img/tintuc1.webp" class="card-img-top" alt="Tin 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Giải pháp chống xói lở bờ biển</h5>
+                            <p class="card-text">Công ty MOCI vừa triển khai thành công hệ thống chống xói lở tại Cần
+                                Giờ...</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài viết 3 -->
+                <div class="col-12 col-md-6 d-md-none col-lg-4 d-lg-block mb-4">
+                    <div class="card h-100">
+                        <img src="/img/tintuc1.webp" class="card-img-top" alt="Tin 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Giải pháp chống xói lở bờ biển</h5>
+                            <p class="card-text">Công ty MOCI vừa triển khai thành công hệ thống chống xói lở tại Cần
+                                Giờ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">Xem thêm</button>
+        </div>
+    </section>
+
+    <!-- PHẦN SẢN PHẨM -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">SẢN PHẨM</h2>
+
+            <div class="row">
+                <!-- Sản phẩm 1 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/img/tintuc1.webp" class="card-img-top" alt="Sản phẩm 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Rọ đá mạ kẽm</h5>
+                            <p class="card-text">Giải pháp bảo vệ bờ biển hiệu quả, chịu được môi trường nước mặn...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sản phẩm 2 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/img/tintuc1.webp" class="card-img-top" alt="Sản phẩm 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Vải địa kỹ thuật</h5>
+                            <p class="card-text">Được sử dụng rộng rãi trong thi công kè, đê, nền móng công trình...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sản phẩm 3 -->
+                <div class="col-12 col-md-6 d-md-none col-lg-4 d-lg-block mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/img/tintuc1.webp" class="card-img-top" alt="Sản phẩm 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Ống địa kỹ thuật</h5>
+                            <p class="card-text">Sản phẩm mới giúp thoát nước nhanh, bền bỉ với thời gian...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">Xem thêm</button>
+        </div>
+    </section>
+
+    <!-- PHẦN KHÁCH HÀNG THÂN THIẾT -->
+    <section class="py-5 client">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="text-center mb-4">Khách hàng thân thiết</h2>
+            <div id="customerCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row text-center">
+                            <div class="col-6 col-md-3">
+                                <img src="/img/Con bò.png" class="img-fluid" alt="KH 1">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="/img/Con bò.png" class="img-fluid" alt="KH 2">
+                            </div>
+                            <!-- Ẩn trên màn hình nhỏ, hiển thị trên màn hình trung bình trở lên -->
+                            <div class="col-md-3 d-none d-md-block">
+                                <img src="/img/Con bò.png" class="img-fluid" alt="KH 3">
+                            </div>
+                            <div class="col-md-3 d-none d-md-block">
+                                <img src="/img/Con bò.png" class="img-fluid" alt="KH 4">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row text-center">
+                            <div class="col-6 col-md-3">
+                                <img src="/img/Con bò.png" class="img-fluid" alt="KH 3">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="/img/Con bò.png" class="img-fluid" alt="KH 4">
+                            </div>
+                            <!-- Ẩn trên màn hình nhỏ, hiển thị trên màn hình trung bình trở lên -->
+                            <div class="col-md-3 d-none d-md-block">
+                                <img src="/img/Con bò.png" class="img-fluid" alt="KH 3">
+                            </div>
+                            <div class="col-md-3 d-none d-md-block">
+                                <img src="/img/Con bò.png" class="img-fluid" alt="KH 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHẦN LIÊN HỆ -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">LIÊN HỆ VỚI CHÚNG TÔI</h2>
+
+            <div class="row flex-column flex-md-row">
+                <!-- THÔNG TIN LIÊN HỆ -->
+                <div class="col mb-4 mb-md-0">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Họ và tên</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Số điện thoại</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Nội dung</label>
+                            <textarea class="form-control" id="message" rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Gửi liên hệ</button>
+                    </form>
+                </div>
+
+                <!-- BẢN ĐỒ GOOGLE -->
+                <div class="col">
+                    <div class="ratio ratio-4x3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d898.1379703046097!2d107.08320089410323!3d10.364067185673814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31756f3bd34babd7%3A0x184e1c9bbb184e5d!2zQ8ahIHPhu58gMiAtIFRyxrDhu51uZyDEkEggQsOgIFLhu4thIFbFqW5nIFTDoHUgKEJWVSk!5e1!3m2!1svi!2s!4v1754360210828!5m2!1svi!2s"
+                            width="600" height="450" class="rounded-2" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <!-- Cột 1: Logo + mô tả -->
+                <div class="col-md-5 mb-4">
+                    <img src="img/logo.png" alt="Logo" style="height: 50px;" class="mb-3">
+                    <p>MOCi được thành lập từ năm 2015 chuyên về lĩnh vực cung cấp vật tư, máy móc, thiết bị, phụ tùng,
+                        hóa chất và các dịch vụ kỹ thuật.</p>
+                </div>
+
+                <!-- Cột 2: Điều hướng -->
+                <div class="col-md-3 mb-4">
+                    <h5>Liên kết nhanh</h5>
+                    <ul class="list-styled square">
+                        <li><a href="#" class="text-white text-decoration-none">Trang chủ</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Giới thiệu</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Sản phẩm</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Tin tức</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Cột 3: Thông tin liên hệ -->
+                <div class="col-md-4 mb-4">
+                    <h5>Liên hệ</h5>
+                    <p>Địa chỉ: Số 30, đường số 1, khu dân cư Cityland Park Hills, P.10, Q. Gò Vấp, TP.HCM</p>
+                    <p>Điện thoại: 0123 456 789</p>
+                    <p>Email: info@moci.com.vn</p>
+                </div>
+            </div>
+
+            <hr class="border-top border-light">
+
+            <div class="text-center">
+                <p class="mb-0">&copy; Design by NQB</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

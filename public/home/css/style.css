@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* =====HEADER===== */
+.bg-header {
+    background-color: #0056a3;
+}
+
+@media (min-width: 1024px) {
+    .bg-header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* =====NAVBAR===== */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-item:hover {
+    padding-left: 5px;
+    background-color: #0056a3;
+    a {
+        color: white;
+    }
+}
+
+/* =====TIN TỨC & SỰ KIỆN===== */
+.news-card-index {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.news-card-index:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.news-card-index img {
+    height: 280px;
+    object-fit: cover;
+}
+
+.news-card-index .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.news-card-index .card-body a:hover {
+    color: #0056a3;
+}
+
+/* =====SẢN PHẨM===== */
+.product-card-index {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.product-card-index:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.product-card-index img {
+    height: 280px;
+    object-fit: cover;
+}
+
+.product-card-index .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-card-index .card-body a:hover {
+    color: #0056a3;
+}
+
+/* =====KHÁCH HÀNG THÂN THIẾT===== */
+.client {
+    background-image: url("/home/img/oil.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.client .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 70, 146, 0.5);
+    z-index: 1;
+}
+
+.client .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Xóa nền trắng toàn bộ carousel */
+.client .carousel,
+.client .carousel-inner,
+.client .carousel-item,
+.client .carousel-item > div,
+.client .carousel-item > div > div {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.client .carousel-inner .carousel-item img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+/* Style logo */
+.client .carousel-inner img {
+    display: block;
+    background: white; /* nền riêng của logo */
+    border-radius: 12px;
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* =====VỀ CHÚNG TÔI===== */
+.about-header {
+    background-image: url("/home/img/oil.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 260px;
+}
+
+.about-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 70, 146, 0.5);
+    z-index: 1;
+}
+
+.about-header h2 {
+    color: white;
+    position: relative;
+    z-index: 2;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* =====ĐỐI TÁC & NHÀ CUNG CẤP===== */
+.carousel {
+    background-color: #f4f4f4;
+}
+
+/* =====PRODUCT===== */
+.product-card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.filter-btn.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.product-card .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-card .card-body a:hover {
+    color: #0056a3;
+}
+
+/* =====NEWS===== */
+.news-card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.news-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-card .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.news-card .card-body a:hover {
+    color: #0056a3;
+}
+
+/* =====SHOWNEWS===== */
+
+.shownew-card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.shownew-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.shownew-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.filter-btn.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.shownew-card .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.shownew-card .card-body a:hover {
+    color: #0056a3;
+}
+
+@media (max-width: 768px) {
+    .shownew-card img {
+        height: 150px; /* Giảm chiều cao trên mobile */
+    }
+    .shownew-card .card-body h5 {
+        font-size: 1rem; /* Giảm kích thước tiêu đề */
+    }
+    .shownew-card .card-body p {
+        font-size: 0.9rem; /* Giảm kích thước nội dung */
+    }
+}
+
+@media (max-width: 576px) {
+    .shownew-card img {
+        height: 120px; /* Thêm điều chỉnh cho màn hình rất nhỏ */
+    }
+    .col-md-4 {
+        flex: 0 0 100%; /* Cột chiếm toàn bộ chiều rộng trên mobile */
+        max-width: 100%;
+    }
+}
+
+/* =====SHOWPRODUCT===== */
+.product-image {
+    max-width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+.product-section {
+    padding: 30px 0;
+}
+.specs-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 4px solid #007bff;
+}
+
+.showproduct-card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.showproduct-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.showproduct-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.filter-btn.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.showproduct-card .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.showproduct-card .card-body a:hover {
+    color: #0056a3;
+}
