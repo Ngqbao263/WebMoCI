@@ -57,6 +57,7 @@
     <section class="py-4">
         <div class="container">
             <h2 class="mb-4">TIN TỨC & SỰ KIỆN</h2>
+            <h2 class="mb-4">TIN TỨC & SỰ KIỆN</h2>
 
             <div class="row">
                 @foreach ($news as $item)
